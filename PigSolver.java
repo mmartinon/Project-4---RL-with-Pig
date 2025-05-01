@@ -121,8 +121,8 @@ public class PigSolver {
         System.out.println("Player 2 win possibility if player 1 scores 0: " + player2Win);
         System.out.println("Player 2 should also hold at: " + firstHold);
 
-        //ps.outputPolicyToCSV("policy_output.csv");
-        //ps.outputHoldValues();
+        ps.outputPolicyToCSV("policy_output.csv");
+        ps.outputHoldValues();
         //ps.outputSummaryPolicy();
 
     }
